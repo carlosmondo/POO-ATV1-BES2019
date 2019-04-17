@@ -4,11 +4,11 @@
 
 #### Objetivo: Desenvolver um projeto com a linguagem Java que resolva um determinado problema
 
-O problema escolhido para a resolução desta atividade trata da organização de arquivos, classificandos pelo ano de publicação deles e o
-semestre. No problema em questão, foi restringido o uso de dois anos.
+O problema escolhido para a resolução desta atividade trata da organização de arquivos, classificados pelo 
+ano de publicação deles e o semestre. No problema em questão, foi restringido o uso de dois anos.
 
-Esse programa pode ser utilizado para por exemplo contabilizar quantos artigos foram publicados no primeiro semetre
-de um ano em comparação a outros.
+Esse programa pode ser utilizado para por exemplo contabilizar quantos artigos foram publicados no
+primeiro semestre de um ano em comparação a outros.
 
 Para a atividade foi seguido os seguintes critérios: 
 #### Requisitos
@@ -27,10 +27,10 @@ Para a atividade foi seguido os seguintes critérios:
 ---------------------------------------------------------------
 ```java
 /*
- * O Problema escolhido trata da organização de arquivos, classificandos pelo ano de publicação deles e o semestre.
- * No problema em questão, foi restringido o uso de dois anos (2018 e 2019) e o primeiro semestre e o segundo semestre.
- * Esse programa pode ser utilizado para por exemplo contabilizar quantos artigos foram publicados no primeiro semetre
- * de um ano em comparação a outros. */
+ * O Problema escolhido trata da organização de arquivos, classificados pelo ano de publicação deles e 
+ * o semestre. No problema em questão, foi restringido o uso de dois anos (2018 e 2019) e o primeiro 
+ * semestre e o segundo semestre. Esse programa pode ser utilizado para por exemplo contabilizar quantos
+ * artigos foram publicados no primeiro semestre de um ano em comparação a outros. */
 
 // Importa a classe Scanner, que permite a leitura de dados a partir do teclado
 import java.util.Scanner;
@@ -38,35 +38,35 @@ import java.util.Scanner;
 // Cria a classe publica Arquivadora
 public class Arquivadora {
 
-    /* Cria um metodo publico, estatico e sem retorno defineAno
+    /* Cria um método publico, estático e sem retorno defineAno
      * Que executa dois for encadeados para armazenar numa matriz [][]
      * os anos. Passa um texto para ser exibido na hora de determinar o ano */
     public static void defineAno(String texto, String matriz [][]){
-        // Cria uma referencia na memoria para o objeto Scanner
+        // Cria uma referência na memória para o objeto Scanner
         Scanner keyboard = new Scanner(System.in);
         // Inicia um for para percorrer pelas linhas da matriz
         for (int i = 0; i < matriz.length - 1; i++) {
-            // Imprime na tela o texto passado por parametro
+            // Imprime na tela o texto passado por parâmetro
             System.out.print(texto);
             // Input na matriz na posição [i] do texto informado pelo usuario
             matriz[0][i] = keyboard.next();
         }
         for (int i = 0; i < matriz.length - 1; i++) {
-            // Input na matriz na posição [i] do texto informado pelo usuario
+            // Input na matriz na posição [i] do texto informado pelo usuário
             matriz[1][i] = "1SEM";
         }
         for (int i = 0; i < matriz.length - 1; i++) {
-            // Input na matriz na posição [i] do texto informado pelo usuario
+            // Input na matriz na posição [i] do texto informado pelo usuário
             matriz[2][i] = "2SEM";
         }
     }
 
-    /* Metodo main da classe Arquivadora, primeiro método a ser executado quando a aplicação é executada */
+    /* Metodo main da classe Arquivadora, primeiro método a ser executado */
     public static void main(String[] args) {
 
         // Cria uma referencia na memoria para o objeto Scanner.
         Scanner keyboard = new Scanner(System.in);
-        /* Inicializa as variaveis primitivas int. Para escolher a opção do menu, 
+        /* Inicializa as variáveis primitivas int. Para escolher a opção do menu, 
          * pegar a posição da matriz e a quantidade de arquivos */
         int opcao = 0, linha = 0, coluna = 0, quantidadeArquivos = 0;
         // E outra matriz 2x2 de valores inteiros para representar a quantidade de arquivos.
@@ -80,8 +80,9 @@ public class Arquivadora {
         boolean mantem = true, achou = false;
 
         /* Faz uma chamada do método criaGenero, passando uma String que será impressa dentro do laço
-         * e passando a matriz definida nas linhas acima que recebera os valores dos generos dados pelo usuario */
-        defineAno("Infome os anos que serão computados os arquivos: ", ano);
+         * e passando a matriz definida nas linhas acima que recebera os valores dos generos dados pelo 
+         * usuario */
+        defineAno("Informe os anos que serão computados os arquivos: ", ano);
 
         // Inicializa o loop do meuno
         do{
@@ -101,9 +102,9 @@ public class Arquivadora {
                 /* Caso o valor de opcao = 1 executa o primeiro caso
                    onde ele imprime em tela o estado atual da matriz, */
                 case 1:
-                    /* Passa para o método as duas matrizes, gaveteiro (contem os valores de quantos arquivos tem em
-                     * casa posição) e genero (os generos literarios existens). E relaciona as duas matrizes de
-                     * acordo com as posições delas */
+                    /* Passa para o método as duas matrizes, gaveteiro (contem os valores de quantos 
+                     * arquivos tem em casa posição) e genero (os generos literarios existens). E 
+                     * relaciona as duas matrizes de acordo com as posições delas */
                     for(int i = 0; i < ano.length; i++){
                         // Percorre pela linha da matriz
                         for(int j = 0; j < ano[i].length; j++){
@@ -116,14 +117,14 @@ public class Arquivadora {
                     }
                     break; // Finaliza o case 1 e volta para o menu.
                 /* Caso o valor de opcao = 2 executa o segundo caso,
-                 * Onde o usuario da o input dos valores na matriz arquivos de acordo com o ano/semestre informado,
-                 * Onde é conectada as matrizes. */
+                 * Onde o usuario da o input dos valores na matriz arquivos de acordo com o ano/semestre
+                 * informado */
                 case 2:
                     // Soicita o valor correspondente a quantidade de arquivos a serem armazenados
                     System.out.print("Informe a quantidade de arquivos que deseja arquivar: ");
                     quantidadeArquivos = keyboard.nextInt();
-                    /* Caso o usuario informe um valor invalido (Menor ou Igual a 0), devolve mensagem informado
-                     * valor invalido e retorna ao menu. */
+                    /* Caso o usuario informe um valor invalido (Menor ou Igual a 0), devolve mensagem 
+                     * informado valor invalido e retorna ao menu. */
                     if (quantidadeArquivos <= 0){
                         System.out.println("Valor invalido");
                         break;
@@ -137,19 +138,19 @@ public class Arquivadora {
 
                     // Inicia for encadeado, percorrendo pelas linhas da matriz ano
                     for (int i = 0; i < ano.length; i++) {
-                        /* Usando o valor de i para determinar a linha que se posiciona, percorre pelas colunas
-                         * Utilizando o valor de j até que ele seja menor que o tamanho da coluna*/
+                        /* Usando o valor de i para determinar a linha que se posiciona, percorre pelas 
+                         * colunas. Utilizando o valor de j até que ele seja menor que o tamanho da coluna*/
                         for (int j = 0; j < ano[i].length; j++) {
                             // Armazena temporariamente o valor da String Ano naquela posição da matriz
                             String anoTemporario =  ano[0][j];
                             // Armazena temporariamente o valor da String Semestre naquela posição da matriz
                             String semestreTemporario = ano[i][j];
-                            // Cria duas variaveis boolenas que recebem o retorno do metodo equalsIgnoreCase, para checar
-                            // se foi encontrado o Ano e Semestre informado
+                            /* Cria duas variaveis boolenas que recebem o retorno do metodo equalsIgnoreCase, 
+                             * para checar se foi encontrado o Ano e Semestre informado */
                             boolean achouAno = valorAno.equalsIgnoreCase(anoTemporario);
                             boolean achouSemestre = valorSemestre.equalsIgnoreCase(semestreTemporario);
-                            /* Testa condição, se o Ano e Semestre informado pelo usuario no input de ano e sememetres
-                               é uma String igual, porem ignorando o case-sensitive */
+                            /* Testa condição, se o Ano e Semestre informado pelo usuario no input de ano e 
+                             * sememetres é uma String igual, porem ignorando o case-sensitive */
                             if (achouAno && achouSemestre){
                                 // Se for encontrado um valor que corresponda, armazena a linha e a coluna da matriz
                                 linha = i;
@@ -161,7 +162,7 @@ public class Arquivadora {
                     }
                     if (achou){
                         // Caso tenha achado um valor correspondente
-                        System.out.println("\nAno e Semestre encontrado... inserindo informacao");
+                        System.out.println("\nAno e Semestre encontrado... inserindo informação");
 
                         // Armazena o total de arquivos do primeiro ano
                         int totalArquivos = 0;

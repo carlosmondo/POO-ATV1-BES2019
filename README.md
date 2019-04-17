@@ -212,5 +212,5 @@ public class Arquivadora {
   <a>
     <img src="http://python.joinville.br/img/logo-univille.png" />
   </a>
-  <h1 align="center">Univille</h1>
+  <h3 align="center">Universidade da Região de Joinville</h3>
 </p>

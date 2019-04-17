@@ -66,7 +66,8 @@ public class Arquivadora {
 
         // Cria uma referencia na memoria para o objeto Scanner.
         Scanner keyboard = new Scanner(System.in);
-        // Inicializa as variaveis primitivas int. Para escolher a opção do menu, pegar a posição da matriz e a quantidade de arquivos
+        /* Inicializa as variaveis primitivas int. Para escolher a opção do menu, 
+         * pegar a posição da matriz e a quantidade de arquivos */
         int opcao = 0, linha = 0, coluna = 0, quantidadeArquivos = 0;
         // E outra matriz 2x2 de valores inteiros para representar a quantidade de arquivos.
         int arquivos [][] = new int [3][2];
@@ -173,8 +174,9 @@ public class Arquivadora {
                         for (int i = 1; i < ano.length; i++) {
                             totalArquivosOutroAno += arquivos[i][1];
                         }
-                        // Armazena na matriz arquivos, na correspondete possição da matriz genero, a quantidade de arquivos informados
-                        // para armazenamento
+                        /* Armazena na matriz arquivos, na correspondete possição da matriz genero, 
+                         * a quantidade de arquivos informados
+                         * para armazenamento */
                         arquivos[linha][coluna] = quantidadeArquivos;
                         arquivos[0][0] = totalArquivos;
                         arquivos[0][1] = totalArquivosOutroAno;

@@ -9,74 +9,70 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  
  - Problema 02
    - Caracteristicas: Ano, Modelo, Cavalos.
- 
- > Metódos: TrocarMarcha, Ligar, Acelerar.
+   - Metódos: TrocarMarcha, Ligar, Acelerar.
  
  - Problema 03
- > Caracteristicas são os Atríbutos.
- 
- > Comportamento são os Métodos.
+   - Caracteristicas são os Atríbutos.
+   - Comportamento são os Métodos.
  
  - Problema 04
- > Diminuir a complexidade da programação, possibilitando a reutilização do código. Utilizando objetos para se comunicarem entre sí,
- > para a construção do software de maneira cooperativa.
+   - Diminuir a complexidade da programação, possibilitando a reutilização do código. Utilizando objetos para se comunicarem entre sí,
+   para a construção do software de maneira cooperativa.
  
  - Problema 05
- > Abstração é dar foco somente a aquilo que é realmente importante, em OOP, abstrair é o ato de definir o que é importante p/ ser usado 
- > em uma classe. Por exemplo ao tratar de uma conta bancaria, saber o que é importante extrair disso, num contexto de banco não é
- > interessante saber o tipo sanguineo do cliente, já se tratando de um sistema de banco de sangue, é algo relevante.
+   - Abstração é dar foco somente a aquilo que é realmente importante, em OOP, abstrair é o ato de definir o que é importante p/ ser 
+   usado em uma classe. Por exemplo ao tratar de uma conta bancaria, saber o que é importante extrair disso, num contexto de banco não é
+   interessante saber o tipo sanguineo do cliente, já se tratando de um sistema de banco de sangue, é algo relevante.
  
  - Problema 06
- > Uma classe é uma estrutura de dados que busca representar um objeto, no qual compreende as características e comportamentos daquele   
- > objeto.
+   - Uma classe é uma estrutura de dados que busca representar um objeto, no qual compreende as características e comportamentos daquele 
+   objeto.
  
  - Problema 07
- > Utilizar uma palavra, começando sempre com uma letra maiúscula, sempre que houver outra palavra, deve iniciar com letra maiúsucla
- > tambem, não usando espaço, nem iniciando a variavel com número, no singular. Padrão camelCase. Ex: Carro, CarroEletrico.
+   - Utilizar uma palavra, começando sempre com uma letra maiúscula, sempre que houver outra palavra, deve iniciar com letra maiúsucla
+   tambem, não usando espaço, nem iniciando a variavel com número, no singular. Padrão camelCase. Ex: Carro, CarroEletrico.
  
  - Problema 08
- > 4. CarroEletrico.
+   - 4. CarroEletrico.
  
  - Problema 09
- > Utilizar uma palavra, começando sempre com uma letra minuscula, sempre que houver outra palavra, deve iniciar com letra maiúsucla
- > tambem, não usando espaço, nem iniciando a variavel com número, podendo iniciar com $ ou _ (underscore), mas não é o recomendado. 
- > Padrão camelCase. Ex: corDoCabelo.
+   - Utilizar uma palavra, começando sempre com uma letra minuscula, sempre que houver outra palavra, deve iniciar com letra maiúsucla
+   tambem, não usando espaço, nem iniciando a variavel com número, podendo iniciar com $ ou _ (underscore), mas não é o recomendado. 
+   Padrão camelCase. Ex: corDoCabelo.
  
  - Problema 10
- > 3. corDeFundo.
+   - 3. corDeFundo.
  
  - Problema 11
- > Utilizar uma palavra, começando sempre com uma letra minusculo, sempre que houver outra palavra, deve iniciar com letra maiúsucla
- > tambem, não usando espaço, nem iniciando a variavel com número, comumente sendo um verbo. Padrão camelCase. Ex: getCorDoCabelo.
+   - Utilizar uma palavra, começando sempre com uma letra minusculo, sempre que houver outra palavra, deve iniciar com letra maiúsucla
+   tambem, não usando espaço, nem iniciando a variavel com número, comumente sendo um verbo. Padrão camelCase. Ex: getCorDoCabelo.
  
  - Problema 12
- > 1. estaVazio
+   - 1. estaVazio
  
  - Problema 13
- > Objeto é uma referência de memória para a instância de uma classe.
- > Ela passa a existir a partir do momento que é instânciado na memória.
- > Deixando de existir quando o programa é encerrado.
+   - Objeto é uma referência de memória para a instância de uma classe.
+   Ela passa a existir a partir do momento que é instânciado na memória.
+   Deixando de existir quando o programa é encerrado.
  
  - Problema 14
- > O Objetivo do operador new é criar uma nova instância na memória para aquela classe.
+   - O Objetivo do operador new é criar uma nova instância na memória para aquela classe.
  
  - Problema 15
- > Um construtor é um "método" utilizado para inicializar os atríbutos da classe.
- > Seu nome deve ser o mesmo da classe. Ex: 
+   - Um construtor é um "método" utilizado para inicializar os atríbutos da classe.
+   Seu nome deve ser o mesmo da classe. Ex: 
  ```java
  public class Pessoa{
  
      public Pessoa(){}
      
  }
- 
  ...
- 
  Pessoa p = new Pessoa(); 
  ```
  
  - Problema 16
- > Sera o construtor padrão que o Java implementa. Ex:
+   - Sera o construtor padrão que o Java implementa. Ex:
  ```java
  public Pessoa{
  }
@@ -88,18 +84,18 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  ```
  
  - Problema 18
- > É a capacidade de não expor o funcionamento do objeto, ou seja, somente a própria classe precisa saber como é seu funcionamento.
- > Os outros objetos que iram se comunicar com ela não precisam saber como funcionam seus métodos.
+   - É a capacidade de não expor o funcionamento do objeto, ou seja, somente a própria classe precisa saber como é seu funcionamento.
+   Os outros objetos que iram se comunicar com ela não precisam saber como funcionam seus métodos.
  
  - Problema 19
- > Fazer com que o método ou atributo seja acessado por qualquer outro objeto ou de forma direta.
+   - Fazer com que o método ou atributo seja acessado por qualquer outro objeto ou de forma direta.
  
  - Problema 20
- > Fazer com que o método ou atributo seja acessado somente pela própria classe.
+   - Fazer com que o método ou atributo seja acessado somente pela própria classe.
  
  - Problema 21
- > O encapsulamento em uma classe irá definir de que forma será possivel acessar um atributo. Se um atributo for privado, só será
- > possivel acessar utilizando os métodos da própria classe, caso seja público poderá ser acessada de forma direta.
+   - O encapsulamento em uma classe irá definir de que forma será possivel acessar um atributo. Se um atributo for privado, só será
+   possivel acessar utilizando os métodos da própria classe, caso seja público poderá ser acessada de forma direta.
  ```java
  public class Aluno{
     private String matricula;
@@ -115,7 +111,7 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  ```
  
  - Problema 22
- > Quando o encapsulamento torna um atributo da classe privado, para acessar o valor deste atributo utilizamos um método getter.
+   - Quando o encapsulamento torna um atributo da classe privado, para acessar o valor deste atributo utilizamos um método getter.
  ```java
  public class Aluno{
     private String matricula;
@@ -129,7 +125,7 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  ```
  
  - Problema 23
- > Quando o encapsulamento torna um atributo da classe privado, para definir o valor deste atributo utilizamos um método setter.
+   - Quando o encapsulamento torna um atributo da classe privado, para definir o valor deste atributo utilizamos um método setter.
  ```java
  public class Aluno{
     private String matricula;
@@ -142,19 +138,19 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  ```
  
  - Problema 24
- > 1 - Classe, 2- Atributos, 3 - Métodos
+   - 1 - Classe, 2- Atributos, 3 - Métodos
  
  - Problema 25
- > Definir o modificador, sendo +(public), -(private), #(protect), ~(default). O nome do atributo (seguindo o padrão da linguagem) : e o tipo.
- > Ex: - nome: String.
+   - Definir o modificador, sendo +(public), -(private), #(protect), ~(default). O nome do atributo (seguindo o padrão da linguagem) : e 
+   o tipo. Ex: - nome: String.
 
  - Problema 26
- > modificador nomeDoMetodo(parametro: TipoParametro): TipoRetorno
- > +getSaldo(): double
+   - modificador nomeDoMetodo(parametro: TipoParametro): TipoRetorno
+   Ex: +getSaldo(): double
  
  - Problema 27
- > Utilizando o termo << create >> antes do metodo que leva o mesmo nome da clas.
- > Ex: << create >>+Carro(marca:String, modelo: String, ano: int)
+   - Utilizando o termo << create >> antes do metodo que leva o mesmo nome da clas.
+   Ex: << create >>+Carro(marca:String, modelo: String, ano: int)
  
  - Problema 28
  
@@ -266,7 +262,7 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  |                        | -recalcularSaldo()            |                |                                 |
  
  - Problema 33
- > O estado de um objeto é os valores que seus atributos possuem no momento. 
+   - O estado de um objeto é os valores que seus atributos possuem no momento. 
  ```java
  
  }
@@ -305,6 +301,7 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  ```
  
  - Problema 37
+ 
    No código abaixo, existem algums problemas, tais como:
    - O atributo weight estar como public, isso torna os métodos getWeight e setWeight inuteis, permitindo o acesso direto ao atributo.
    - No método main, após instânciar o objeto, o atributo name é acessado de forma direta, o que não é possivel, pois seu modificador é
@@ -328,8 +325,9 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  ```
  
   As possiveis correções seriam:
-  - Tornar os atributos todos privados;
-  - utilizar os setters para modificar o estado dos atributos do objeto.
+  - 
+   - Tornar os atributos todos privados;
+   - utilizar os setters para modificar o estado dos atributos do objeto.
   
 ```java
 public class Cat{

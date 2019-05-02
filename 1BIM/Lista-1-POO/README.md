@@ -150,7 +150,7 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  
  - Problema 27
    - Utilizando o termo << create >> antes do metodo que leva o mesmo nome da clas.
-   Ex: << create >>+Carro(marca:String, modelo: String, ano: int)
+   - Ex: << create >>+Carro(marca:String, modelo: String, ano: int)
  
  - Problema 28
  
@@ -263,12 +263,10 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  
  - Problema 33
    - O estado de um objeto é os valores que seus atributos possuem no momento. 
- ```java
- 
- }
- ```
+ ![](./pic/Diagrama_de_Estado_Classe_Aluno.PNG)
  
  - Problema 34
+ ![](./pic/Diagrama_de_Estado_Classe_Dog.PNG)
  ```java
  diagram de objetos
  public class Dog(){
@@ -278,6 +276,7 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  ```
  
  - Problema 35
+ ![](./pic/Diagrama_de_Estado_Classe_Dog_2.PNG)
  ```java
  diagram de objetos
  public class Dog(){
@@ -287,6 +286,7 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  ```
  
  - Problema 36
+ 
  ```java
  diagram de objetos
  public class pug(){

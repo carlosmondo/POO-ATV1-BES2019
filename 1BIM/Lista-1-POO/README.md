@@ -256,7 +256,7 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  |------------------------|-------------------------------|----------------|---------------------------------|
  | -nome: String          | -saldo: double                | +chave: String |                                 |
  | -telefone: int         |                               | +valor: String |                                 |
- |------------------------|-------------------------------|----------------|---------------------------------|
+ | | | | |
  | +getNome(): String     | +sacar(valor: double): double |                | +imprimir(documento: Documento) |
  | +setNome(nome: String) | +depositar(valor: double)     |                |                                 |
  |                        | -recalcularSaldo()            |                |                                 |

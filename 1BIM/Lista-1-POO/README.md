@@ -74,13 +74,13 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  - Problema 16
    - Sera o construtor padrão que o Java implementa. Ex:
  ```java
- public Pessoa{
+ public Aluno{
  }
  ```
  
  - Problema 17
  ```java
- Pessoa p = new Pessoa(); 
+ Aluno p = new Aluno(); 
  ```
  
  - Problema 18

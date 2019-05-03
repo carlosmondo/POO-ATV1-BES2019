@@ -291,7 +291,7 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  
  - Problema 36
    
-   ![](./pic/Diagrama_35.PNG)
+   ![](./pic/Diagrama_35.png)
  
  ```java
  diagram de objetos

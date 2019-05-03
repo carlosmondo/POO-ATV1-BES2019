@@ -264,13 +264,14 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  - Problema 33
    - O estado de um objeto é os valores que seus atributos possuem no momento. 
    
- ![](./pic/Diagrama_de_Estado_Classe_Aluno.PNG)
+   ![](./pic/Diagrama_de_Estado_Classe_Aluno.PNG)
  
  - Problema 34
- ![](./pic/Diagrama_de_Estado_Classe_Dog.PNG)
+   
+   ![](./pic/Diagrama_de_Estado_Classe_Dog.PNG)
  
  ```java
- diagram de objetos
+ 
  public class Dog(){
      int = 0
      String = null
@@ -278,7 +279,6 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  ```
  
  - Problema 35
- ![](./pic/Diagrama_de_Estado_Classe_Dog_2.PNG)
  
  ```java
  diagram de objetos
@@ -289,6 +289,8 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  ```
  
  - Problema 36
+ 
+  
  
  ```java
  diagram de objetos
@@ -303,8 +305,10 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
      vivo boolean = false
  ```
  
- - Problema 37
  
+ 
+ - Problema 37   
+   
    No código abaixo, existem algums problemas, tais como:
    - O atributo weight estar como public, isso torna os métodos getWeight e setWeight inuteis, permitindo o acesso direto ao atributo.
    - No método main, após instânciar o objeto, o atributo name é acessado de forma direta, o que não é possivel, pois seu modificador é

@@ -280,8 +280,9 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  
  - Problema 35
  
+   ![](./pic/Diagrama_de_Estado_Classe_Dog_2.PNG)
+   
  ```java
- diagram de objetos
  public class Dog(){
      Years int = 10
      name String = "Spike"
@@ -289,8 +290,8 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
  ```
  
  - Problema 36
- 
-  
+   
+   ![](./pic/Diagrama_35.PNG)
  
  ```java
  diagram de objetos

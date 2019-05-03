@@ -306,8 +306,6 @@ Utilizar os onhecimentos de orientação a objetos para resolver os problemas so
      vivo boolean = false
  ```
  
- 
- 
  - Problema 37   
    
    No código abaixo, existem algums problemas, tais como:

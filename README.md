@@ -18,6 +18,8 @@ utilizando este paradigma.
 
 - [Lista de Exercícios - Introdução a OO](https://github.com/carlosmondo/POO-BES2019/tree/master/1BIM/Lista-1-POO)
 
+- [Exercícios sobre Métodos Padrões na Classe Object](https://github.com/carlosmondo/java-exercises/tree/master/Metodos-Padroes-Object)
+
 <p align="center">
   <a>
     <img src="http://python.joinville.br/img/logo-univille.png" />

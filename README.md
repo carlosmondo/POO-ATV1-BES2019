@@ -14,11 +14,11 @@ utilizando este paradigma.
 
 ## 1º Bimestre
 
-- [Atividade - Arquivadora](https://github.com/carlosmondo/POO-BES2019/tree/master/1BIM/ATV-1-Arquivadora)
+- [Atividade - Arquivadora](https://github.com/carlosmondo/POO-BES2019/tree/master/1BIM/college-work-arquivadora)
 
-- [Lista de Exercícios - Introdução a OO](https://github.com/carlosmondo/POO-BES2019/tree/master/1BIM/Lista-1-POO)
+- [Lista de Exercícios - Introdução a OO](https://github.com/carlosmondo/POO-BES2019/tree/master/1BIM/exercise-list-one)
 
-- [Exercícios sobre Métodos Padrões na Classe Object](https://github.com/carlosmondo/java-exercises/tree/master/Metodos-Padroes-Object)
+- [Exercícios sobre POO (utilizando Java como linguagem)](https://github.com/carlosmondo/java-exercises)
 
 <p align="center">
   <a>

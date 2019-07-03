@@ -20,6 +20,8 @@ utilizando este paradigma.
 
 - [Exercícios sobre POO (utilizando Java como linguagem)](https://github.com/carlosmondo/java-exercises)
 
+- [Atividade - Interface, Tipos Generics, Classes Abstract, Pacotes](https://github.com/carlosmondo/POO-BES2019/tree/master/2BIM/Atividade)
+
 <p align="center">
   <a>
     <img src="http://python.joinville.br/img/logo-univille.png" />

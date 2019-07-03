@@ -24,3 +24,4 @@ Acrescente o seu nome nos pacotes.
 
 ## Diagrama UML
 
+![](./pic/UML_Class.PNG)
